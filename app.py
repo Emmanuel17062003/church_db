@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template, redirect, url_for
 import os
-import psycopg2  # type: ignore
+import psycopg as psycopg2  # type: ignore
 
 app = Flask(__name__)
 
